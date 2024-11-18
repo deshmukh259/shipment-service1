@@ -5,6 +5,7 @@ import jakarta.persistence.Enumerated;
 import lombok.*;
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
+import org.springframework.format.annotation.DateTimeFormat;
 
 import java.time.LocalDateTime;
 import java.util.List;
@@ -25,7 +26,7 @@ public class ShipmentDetailsDto {
     private LocalDateTime estimatedDeliveryDate;
 
     private String shipmentAddress;
-    private String shipmentStatus;
+    private String status;
 
     private List<ShipmentStatusDto> shipmentStatusDtoList;
 

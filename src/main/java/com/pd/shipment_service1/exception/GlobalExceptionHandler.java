@@ -1,4 +1,4 @@
-package com.pd.shipment_service1;
+package com.pd.shipment_service1.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

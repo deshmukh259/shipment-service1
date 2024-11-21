@@ -1,14 +1,12 @@
 package com.pd.shipment_service1.controller;
 
 import com.pd.shipment_service1.dto.ShipmentDetailsDto;
-import com.pd.shipment_service1.dto.ShipmentStatusDto;
 import com.pd.shipment_service1.service.ShipmentDetailsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.List;
-
 @RestController
+@RequestMapping("/shipment")
 public class ShipmentController {
 
 
